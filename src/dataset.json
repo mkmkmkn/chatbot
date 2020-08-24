@@ -1,0 +1,108 @@
+{
+    "init": {
+        "answers": [
+            {"content": "パックロッドのおすすめは？", "nextId": "rod_select"},
+            {"content": "ラインのおすすめは？", "nextId": "line_select"},
+            {"content": "リールのおすすめは？", "nextId": "reel_select"},
+            {"content": "その他", "nextId": "mail_form"}
+        ],
+        "question": "釣り具についてのご質問をお願いします。"
+    },
+
+    "rod_select": {
+        "answers": [
+            {"content": "～40cmの小型青物、シーバス、アオリイカ", "nextId": "rod_smallbluerunner"},
+            {"content": "40cm～の中･大型青物", "nextId": "rod_bigbluerunnner"},
+            {"content": "コブダイ、イシダイ", "nextId": "rod_monsterfish"}
+        ],
+        "question": "狙う魚種とサイズをお願いします。"
+    },
+    "rod_smallbluerunner": {
+        "answers": [
+            {"content": "amazonで購入する", "nextId": "https://www.amazon.co.jp/dp/B07C9JVCQ6/"},
+            {"content": "「釣り具についての質問」に戻る", "nextId": "init"}
+        ],
+        "question": "おすすめのロッドはアブガルシア XRFS-835M-MBになります。"
+    },
+    "rod_bigbluerunnner": {
+        "answers": [
+            {"content": "amazonで購入する", "nextId": "https://www.amazon.co.jp/dp/B07TBQLJ6T/ref=emc_b_5_i"},
+            {"content": "「釣り具についての質問」に戻る", "nextId": "init"}
+        ],
+        "question": "おすすめのロッドはシマノ フリーゲームXT S100MHになります。"
+    },
+    "rod_monsterfish": {
+        "answers": [
+            {"content": "amazonで購入する", "nextId": "https://www.amazon.co.jp/dp/B06XZ2HMFM/"},
+            {"content": "「釣り具についての質問」に戻る", "nextId": "init"}
+        ],
+        "question": "おすすめのロッドはテイルウォーク ナマゾンモバイル C704XHになります。"
+    },
+
+    "line_select": {
+        "answers": [
+            {"content": "～40cmの小型青物、シーバス、アオリイカ", "nextId": "line_smallbluerunner"},
+            {"content": "40cm～の中･大型青物", "nextId": "line_bigbluerunnner"},
+            {"content": "コブダイ、イシダイ", "nextId": "line_monsterfish"}
+        ],
+        "question": "狙う魚種とサイズをお願いします。"
+    },
+    "line_smallbluerunner": {
+        "answers": [
+            {"content": "amazonで購入する", "nextId": "https://www.amazon.co.jp/dp/B079M54QW5/?th=1&psc=1"},
+            {"content": "「釣り具についての質問」に戻る", "nextId": "init"}
+        ],
+        "question": "おすすめのラインはシマノ ピットブル4 0.8号になります。"
+    },
+    "line_bigbluerunnner": {
+        "answers": [
+            {"content": "amazonで購入する", "nextId": "https://www.amazon.co.jp/dp/B079M86XWS/?th=1&psc=1"},
+            {"content": "「釣り具についての質問」に戻る", "nextId": "init"}
+        ],
+        "question": "おすすめのラインはシマノ ピットブル8 2号になります。"
+    },
+    "line_monsterfish": {
+        "answers": [
+            {"content": "amazonで購入する", "nextId": "https://www.amazon.co.jp/dp/B075FXM729/"},
+            {"content": "「釣り具についての質問」に戻る", "nextId": "init"}
+        ],
+        "question": "おすすめのラインはデュエル BIGPE 6号になります。"
+    },
+
+    "reel_select": {
+        "answers": [
+            {"content": "～40cmの小型青物、シーバス、アオリイカ", "nextId": "reel_smallbluerunner"},
+            {"content": "40cm～の中･大型青物", "nextId": "reel_bigbluerunnner"},
+            {"content": "コブダイ、イシダイ", "nextId": "reel_monsterfish"}
+        ],
+        "question": "狙う魚種とサイズをお願いします。"
+    },
+    "reel_smallbluerunner": {
+        "answers": [
+            {"content": "amazonで購入する", "nextId": "https://www.amazon.co.jp/dp/B01NAHNZ4F/"},
+            {"content": "「釣り具についての質問」に戻る", "nextId": "init"}
+        ],
+        "question": "おすすめのリールはダイワ エクセラー 2506Hになります。"
+    },
+    "reel_bigbluerunnner": {
+        "answers": [
+            {"content": "amazonで購入する", "nextId": "https://www.amazon.co.jp/dp/B07GC99NWY/"},
+            {"content": "「釣り具についての質問」に戻る", "nextId": "init"}
+        ],
+        "question": "おすすめのリールはダイワ レガリス LT5000D-CXHになります。"
+    },
+    "reel_monsterfish": {
+        "answers": [
+            {"content": "amazonで購入する", "nextId": "https://www.amazon.co.jp/dp/B07KMKPS4Y/"},
+            {"content": "「釣り具についての質問」に戻る", "nextId": "init"}
+        ],
+        "question": "おすすめのリールはプロックス ジンベイ JBR300になります。"
+    },
+
+    "mail_form": {
+        "answers": [
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "その他の質問は「mkgoma3@gmail.com」までお願いします。"
+    }
+}
